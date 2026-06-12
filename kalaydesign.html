@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <!-- cdn for fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!-- cdn for fontfamily -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;           
+            }
+            :root {
+            --primary-color: #3498db;
+            --text-dark: #06101a;
+            --light-color: #fff;
+            }
+             
+    .top-right{
+        position: absolute;
+        top: 8px;
+        right: 16px;}
+    .bgImage{
+        background-image: url(mclaren.jpg);
+        background-size: cover;
+        max-height: 100vh;
+    }
+    .top-right{
+        color: var(--light-color);
+        text-align: right;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        max-width: 50%;
+    }
+     .top-right h2{
+        color: var(--light-color);
+        margin-bottom: 2rem;
+        font-size: 42px;
+    }
+     .top-right p{
+        color: var(--light-color);
+        margin-bottom: 2rem;
+        font-size: 20px;
+    }
+    .btnDesign{
+        margin-top: 6px;
+        padding: 8px 12px;
+        background-color: var(--text-dark);
+        color: var(--light-color);
+        border-radius: 8px;
+    }
+    .btnDesign:hover {
+            background-color: var(--light-color);
+            color: #232121;
+    }
+    /* Second section Css start */
+        .cardSecParent{
+            min-height: 100vh;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 40px;
+    }
+
+    .cardsdesign{
+        width: 220px;
+        height: 250px;
+        border: 1px solid #ddd;
+        background-color:var(--light-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 8px;
+    }
+    .cardsdesign:hover{
+        background-color: var(--text-dark);
+        color: var(--text-dark);
+    }
+     .cardsdesign:hover P,h3{
+        color: var(--light-color);
+        width: 225px;
+        height: 260px;
+     }
+   
+    .mineiconstyle{
+        font-size: 42px;
+        margin-bottom: 1rem;
+        color: cadetblue;
+    }
+    .cardsdesign p{
+        padding: 8px 2px;
+    }
+        </style>
+    </head>
+<section class="ImageSecParent">
+    <div class="container">
+    <img class="bgImage" src="mclaren.jpg" alt="Snow" style="width:100%;">
+    <div class="top-right">
+   <h2>     Hello I am Kelly </h2>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis. 
+    Quasi tempora possimus suscipit odit modi quaerat beatae nihil, numquam ducimus sunt.
+   </p>
+    <button class="btnDesign">Discover More</button>
+    </div>  
+    </div>
+</section>
+
+<section class="cardSecParent">
+    <div class="container">
+        <div class="headingContent">
+            <br>
+            <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:center";> What Things i am doing...</h2>
+            <br>
+              <p style="text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis.
+              </p>
+        </div>
+    <div class="cards">
+       <div class="cardsdesign">
+        <i class="fa-solid fa-face-smile mineIconStyle"></i>
+        <h3 style="text-align: center;">Graphic Design</h3>
+      <p style="text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis.
+              </p></div>
+    <div class="cardsdesign">
+        <i class="fa-solid fa-camera mineIconStyle"></i>
+        <h3 style="text-align: center;">photography</h3>
+      <p style="text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis.
+              </p></div>
+    <div class="cardsdesign">
+        <i class="fa-regular fa-lightbulb mineIconStyle"></i>
+        <h3 style="text-align: center;">UI/UX Design</h3>
+      <p style="text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis.
+              </p></div>
+    <div class="cardsdesign">
+        <i class="fa-solid fa-layer-group mineIconStyle"></i>
+        <h3 style="text-align: center;">Illustration</h3>
+          <p style="text-align: center;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi atque tempore porro molestias, exercitationem est minus quisquam blanditiis.
+              </p>
+    </div>
+    </div>  
+  </div>
+</section>
+</body>
+</html>
